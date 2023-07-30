@@ -171,14 +171,32 @@ border-radius: 30px;
     filter: brightness(80%) sepia(100%) hue-rotate(45deg);
   }
 
+.container-footer{
+  background-color: #333;
+
   
+}
+.container-footer li{
+  list-style-type: square;
+  color: #f7f7f7;
+
+}
+  
+.container-footer h3{
+  color: aliceblue;
+  font-weight: bolder;
+}
 
 a:link{
   color: #fff;
+  text-decoration: none;
 }
 
 a:visited{
   color: #f7f7f7;
+}
+a:hover{
+  color: black;
 }
 .nav-item a:hover{
   border: 2px solid rgb(247, 246, 246);
