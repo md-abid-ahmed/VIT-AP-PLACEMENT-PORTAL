@@ -1,0 +1,358 @@
+
+
+  .main-section {
+    background: linear-gradient(135deg, #af83dc, #1896c0);
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    position: relative;
+   
+
+  }
+
+  .background-container {
+    position: absolute;
+    top: 50%; 
+    left: 15%; 
+    transform: translate(-50%, -50%); 
+    width: 500px;
+    height: 500px; 
+    border-radius: 50%; 
+   z-index: -1;
+    background: url("intro1.jpg") no-repeat center center;
+    background-size: cover;
+    opacity: 0;
+    animation: fadeIn 4s ease-in-out forwards;
+  }
+
+  .background-container2 {
+    position: absolute;
+    top: 17%; 
+    right: 10px; 
+
+    width: 500px;
+    height: 500px; 
+    border-radius: 50%; 
+    box-shadow: #333;
+   z-index: -1;
+    background: url("intro2.jpg") no-repeat center center;
+    background-size: cover;
+    opacity: 0;
+    animation: fadeIn 4s ease-in-out forwards;
+  }
+  .background-container:hover
+  
+
+  {
+border-radius: 30px;
+  }
+  .background-container2:hover
+  
+
+  {
+    border-radius: 30px;
+  }
+
+
+  @keyframes fadeIn {
+    
+    100% {
+      opacity: 0.3;
+    }
+  }
+  
+
+  .main-section h2 {
+    
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .main-section p {
+    
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 30px;
+  }
+
+  .main-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .main-section li {
+    font-size: 1.1rem;
+    margin: 5px 20px;
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+  }
+
+  .main-section li:before {
+    content: "\2022";
+    font-size: 1.3rem;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+
+  .main-section li:hover {
+    background-color: #fff;
+    color: #7F00FF;
+    cursor: pointer;
+    transition: 0.4s ease;
+  }
+
+  .main-section li:hover:before {
+    content: "";
+  }
+
+  .main-section blockquote {
+    border-left: 5px solid #fff;
+    padding-left: 20px;
+    margin-bottom: 30px;
+  }
+
+  .main-section blockquote p {
+    font-size: 1.1rem;
+    font-style: italic;
+    line-height: 1.6;
+  }
+
+  .main-section blockquote footer {
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-top: 10px;
+    color: azure;
+  }
+  
+  .placements {
+    padding: 20px;
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+  
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .footer p {
+    margin: 0;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    margin-left: 10px;
+  }
+  .yellow-filter {
+    filter: brightness(80%) sepia(100%) hue-rotate(45deg);
+  }
+
+  
+
+a:link{
+  color: #fff;
+}
+
+a:visited{
+  color: #f7f7f7;
+}
+.nav-item a:hover{
+  border: 2px solid rgb(247, 246, 246);
+  color: rgb(238, 229, 229);
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+
+.testimonial-card{
+  height: 250px;
+  width: 250px;
+}
+
+.footer a{
+margin-left: 10px;
+   text-decoration: none;
+      
+    }
+
+
+    .review h1{
+      font-size: 75px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgb(238, 236, 236);
+      font-family: 'Times New Roman', Times, serif;
+      
+    }
+    
+    
+    
+    .review .review_box{
+      width: 95%;
+      margin: 70px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .review .review_box .review_card{
+      width: 350px;
+      height: 535px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+      border-radius: 8px;
+      padding: 8px 20px;
+      margin: 0 8px;
+    }
+    
+    .review .review_box .review_card .review_profile{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      transition: 0.3s;
+    }
+    
+    .review .review_box .review_card:hover .review_profile{
+      transform: translateY(-60px);
+    }
+    
+    .review .review_box .review_card .review_profile img{
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 50%;
+      border: 5px solid #cccccc;
+    }
+    
+    .review .review_box .review_card .review_text{
+      text-align: center;
+    }
+    
+    .review .review_box .review_card .review_text .name{
+      color: #000;
+      transition: 0.3s;
+      
+    }
+    
+    .review .review_box .review_card:hover .review_text .name{
+      transform: translateY(-50px);
+    }
+    
+    
+    
+    
+    
+    .review .review_box .review_card .review_text .review_social {
+      margin: 5px 1px;
+      font-size: 15px;
+      opacity: 0;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    
+    .review .review_box .review_card:hover .review_text .review_social {
+
+      opacity: 1;
+      transform: translateY(-8px);
+    }
+    
+    .review .review_box .review_card:hover .review_text .review_social a {
+      
+    margin: 5px;
+    text-decoration: none;
+    }
+    
+/* offerings */
+
+.offerings {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  justify-content: center;
+  padding: 50px;
+  background: linear-gradient(135deg, #af83dc, #1896c0);
+}
+
+.modal {
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease, box-shadow 0.2s ease;
+}
+
+.modal:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+ 
+font-style: italic;
+
+
+}
+
+.modal-body p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.modal-footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+/* 
+APPLIED */
+
+
+
+thead>tr>th {
+                vertical-align: bottom;
+                border: 1px solid #000;
+            
+                text-align:center;
+                
+               
+            }
+
+tbody>tr>td{
+  vertical-align: bottom;
+  border: 1px solid #000;
+
+  text-align:center;
+}
+
