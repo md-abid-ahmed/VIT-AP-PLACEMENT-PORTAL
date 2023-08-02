@@ -13,3 +13,4 @@ Applied: In this section, students can conveniently view the companies where the
 Offerings: This section presents a comprehensive list of companies visiting the campus, along with concise descriptions of their requirements and eligibility criteria. Students can easily browse through this information and select the companies that align with their career goals.
 
 Our portal ensures a user-friendly experience, providing VIT-AP students and others to see the achievements with a convenient and efficient platform for their placement journey.
+https://md-abid-ahmed.github.io/VIT-AP-PLACEMENT-PORTAL/
